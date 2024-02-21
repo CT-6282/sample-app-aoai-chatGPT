@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import Contoso from "../../assets/donkeyBot-3.png";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -723,7 +723,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)"
+                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, # 33.63%, #FFCBCB 70.31%, #FFFFFF 100%)"
                                         },
                                         rootDisabled: {
                                             background: "#F0F0F0"
@@ -746,7 +746,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
+                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #7A381F 33.63%, #FFCBCB 70.31%, #FFFFFF 100%)",
                                         },
                                         rootDisabled: {
                                             background: "#F0F0F0"
